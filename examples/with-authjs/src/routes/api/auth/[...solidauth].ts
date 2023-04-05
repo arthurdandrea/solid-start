@@ -1,5 +1,5 @@
 import DiscordProvider from "@auth/core/providers/discord";
-import { SolidAuth, SolidAuthConfig } from "@auth/solid-start";
+import { SolidAuth, type SolidAuthConfig } from "@auth/solid-start";
 
 export const authOptions: SolidAuthConfig = {
   providers: [

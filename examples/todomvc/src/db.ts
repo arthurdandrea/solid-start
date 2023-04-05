@@ -1,5 +1,5 @@
 // TODO: This is terribly broken with HMR. Should use real persistent storage.
-import { Todo } from "~/types";
+import type { Todo } from "~/types";
 
 let COUNTER = 0;
 let TODOS: Todo[] = [];

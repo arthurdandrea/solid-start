@@ -3,7 +3,7 @@ import { A, useLocation, useRouteData } from "solid-start";
 import { createServerAction$, createServerData$, createServerMultiAction$, redirect } from "solid-start/server";
 import { CompleteIcon, IncompleteIcon } from "~/components/icons";
 import db from "~/db";
-import { Todo } from "~/types";
+import type { Todo } from "~/types";
 
 declare module "solid-js" {
   namespace JSX {
