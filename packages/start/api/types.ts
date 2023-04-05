@@ -1,4 +1,4 @@
-import { FetchEvent, FETCH_EVENT } from "../server/types";
+import type { FetchEvent, FETCH_EVENT } from "../server/types";
 
 export interface APIEvent extends FetchEvent {
   params: { [key: string]: string };

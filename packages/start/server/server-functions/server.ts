@@ -13,8 +13,8 @@ import {
   XSolidStartResponseTypeHeader,
   isRedirectResponse
 } from "../responses";
-import { PageEvent, ServerFunctionEvent } from "../types";
-import { CreateServerFunction } from "./types";
+import type { PageEvent, ServerFunctionEvent } from "../types";
+import type { CreateServerFunction } from "./types";
 export type { APIEvent } from "../../api/types";
 
 export const server$: CreateServerFunction = ((_fn: any) => {

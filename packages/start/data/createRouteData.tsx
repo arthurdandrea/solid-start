@@ -13,7 +13,7 @@ import { isServer } from "solid-js/web";
 import { useNavigate } from "../router";
 import { isRedirectResponse, LocationHeader } from "../server/responses";
 import { ServerContext } from "../server/ServerContext";
-import { FETCH_EVENT, ServerFunctionEvent } from "../server/types";
+import { FETCH_EVENT, type ServerFunctionEvent } from "../server/types";
 
 interface RouteDataEvent extends ServerFunctionEvent {}
 

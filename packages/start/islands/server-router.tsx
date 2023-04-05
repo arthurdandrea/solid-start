@@ -1,4 +1,4 @@
-import { createContext, JSX, useContext } from "solid-js";
+import { createContext, type JSX, useContext } from "solid-js";
 import { ssr } from "solid-js/web";
 export interface RouteDefinition {
   path: string;

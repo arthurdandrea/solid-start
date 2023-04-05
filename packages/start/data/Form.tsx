@@ -5,7 +5,7 @@
  * Credits to the Remix team for the Form implementation:
  * https://github.com/remix-run/remix/blob/main/packages/remix-react/components.tsx#L865
  */
-import { ComponentProps, createEffect, mergeProps, onCleanup, splitProps } from "solid-js";
+import { type ComponentProps, createEffect, mergeProps, onCleanup, splitProps } from "solid-js";
 
 export interface FormAction<Data> {
   action: string;

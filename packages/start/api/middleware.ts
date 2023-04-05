@@ -1,5 +1,5 @@
-import { Middleware } from "../entry-server";
-import { FetchEvent, FETCH_EVENT } from "../server/types";
+import type { Middleware } from "../entry-server";
+import { type FetchEvent, FETCH_EVENT } from "../server/types";
 import { getApiHandler } from "./index";
 import { internalFetch } from "./internalFetch";
 

@@ -1,6 +1,6 @@
 import { registerApiRoutes } from "./internalFetch";
 import { getRouteMatches } from "./router";
-import { MatchRoute, Method, Route } from "./types";
+import type { MatchRoute, Method, Route } from "./types";
 
 // the line below will be replaced by the compiler with a configuration of routes
 // based on the files in src/routes

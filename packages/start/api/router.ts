@@ -1,4 +1,4 @@
-import { MatchRoute, Method } from "./types";
+import type { MatchRoute, Method } from "./types";
 
 export function getRouteMatches(routes: MatchRoute[], path: string, method: Method) {
   const segments = path.split("/").filter(Boolean);

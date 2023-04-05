@@ -1,10 +1,10 @@
-import { JSX } from "solid-js";
+import type { JSX } from "solid-js";
 import { renderToStream, renderToString, renderToStringAsync } from "solid-js/web";
 import { internalFetch } from "../api/internalFetch";
 import { apiRoutes } from "../api/middleware";
 import { inlineServerFunctions } from "../server/middleware";
 import { redirect } from "../server/responses";
-import { FetchEvent, FETCH_EVENT, PageEvent } from "../server/types";
+import { type FetchEvent, FETCH_EVENT, type PageEvent } from "../server/types";
 
 export function renderSync(
   fn: (context: PageEvent) => JSX.Element,

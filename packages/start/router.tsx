@@ -1,14 +1,14 @@
 import {
   A as BaseA,
-  Location,
-  NavigateOptions,
-  Navigator,
+  type Location,
+  type NavigateOptions,
+  type Navigator,
   Outlet as BaseOutlet,
   Routes as BaseRoutes,
   useLocation as useBaseLocation,
   useNavigate as useBaseNavigate
 } from "@solidjs/router";
-import { Accessor, ComponentProps, splitProps } from "solid-js";
+import { type Accessor, type ComponentProps, splitProps } from "solid-js";
 import { Outlet as IslandsOutlet } from "./islands/server-router";
 
 const A = import.meta.env.START_ISLANDS_ROUTER

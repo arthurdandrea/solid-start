@@ -42,6 +42,6 @@ export {
   type SessionIdStorageStrategy,
   type SessionStorage
 } from "./session";
-import { JSX } from "solid-js";
+import type { JSX } from "solid-js";
 import "./types";
 export declare function FileRoutes(): JSX.Element;

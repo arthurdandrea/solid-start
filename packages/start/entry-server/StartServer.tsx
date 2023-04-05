@@ -1,15 +1,15 @@
 import { MetaProvider } from "@solidjs/meta";
-import { RouteDataFunc, Router, RouterProps } from "@solidjs/router";
-import { ComponentProps, sharedConfig } from "solid-js";
+import { type RouteDataFunc, Router, type RouterProps } from "@solidjs/router";
+import { type ComponentProps, sharedConfig } from "solid-js";
 import { ssr } from "solid-js/web";
 // @ts-ignore
 import Root from "~start/root";
 
-import { RouteDefinition, Router as IslandsRouter } from "../islands/server-router";
+import { type RouteDefinition, Router as IslandsRouter } from "../islands/server-router";
 
 import { fileRoutes } from "../root/FileRoutes";
 import { ServerContext } from "../server/ServerContext";
-import { FetchEvent, PageEvent } from "../server/types";
+import type { FetchEvent, PageEvent } from "../server/types";
 
 const rootData = Object.values(import.meta.glob("/src/root.data.(js|ts)", { eager: true }))[0] as {
   default: RouteDataFunc;

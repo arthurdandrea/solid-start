@@ -10,7 +10,7 @@ import {
 
 import { FormError } from "../../data";
 import { ServerError } from "../../data/FormError";
-import { CreateServerFunction, ServerFunction } from "./types";
+import type { CreateServerFunction, ServerFunction } from "./types";
 
 export async function parseResponse(request: Request, response: Response) {
   const contentType =

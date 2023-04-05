@@ -1,7 +1,7 @@
-import { Component, ComponentProps, lazy, splitProps, useContext } from "solid-js";
+import { type Component, type ComponentProps, lazy, splitProps, useContext } from "solid-js";
 import { Hydration, NoHydration } from "solid-js/web";
 import { ServerContext } from "../server/ServerContext";
-import { IslandManifest } from "../server/types";
+import type { IslandManifest } from "../server/types";
 export { default as clientOnly } from "./clientOnly";
 
 declare module "solid-js" {

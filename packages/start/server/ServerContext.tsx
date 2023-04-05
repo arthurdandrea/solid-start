@@ -1,4 +1,4 @@
-import { PageEvent } from "./types";
+import type { PageEvent } from "./types";
 
 import { createContext, useContext } from "solid-js";
 

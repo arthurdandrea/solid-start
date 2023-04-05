@@ -1,4 +1,4 @@
-import { JSXElement, useContext } from "solid-js";
+import { type JSXElement, useContext } from "solid-js";
 import { useAssets } from "solid-js/web";
 import { ServerContext } from "../server/ServerContext";
 import type { IslandManifest, ManifestEntry, PageEvent } from "../server/types";

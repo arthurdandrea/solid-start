@@ -1,8 +1,8 @@
 import { internalFetch } from "../api/internalFetch";
-import { Middleware as ServerMiddleware } from "../entry-server/StartServer";
+import { type Middleware as ServerMiddleware } from "../entry-server/StartServer";
 import { ContentTypeHeader, XSolidStartContentTypeHeader, XSolidStartOrigin } from "./responses";
 import { handleServerRequest, server$ } from "./server-functions/server";
-import { FetchEvent, FETCH_EVENT } from "./types";
+import { type FetchEvent, FETCH_EVENT } from "./types";
 
 export const inlineServerFunctions: ServerMiddleware = ({ forward }) => {
   return async (event: FetchEvent) => {

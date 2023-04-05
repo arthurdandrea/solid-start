@@ -1,5 +1,5 @@
 import type { JSX } from "solid-js";
-import { children, ComponentProps } from "solid-js";
+import { children, type ComponentProps } from "solid-js";
 import { escape, insert, NoHydration, spread, ssrElement } from "solid-js/web";
 import Links from "./Links";
 import Meta from "./Meta";

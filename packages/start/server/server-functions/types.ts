@@ -1,4 +1,4 @@
-import { FetchEvent } from "../types";
+import type { FetchEvent } from "../types";
 
 export type ServerFunction<E extends any[], T extends (...args: [...E]) => void> = ((
   ...p: Parameters<T>

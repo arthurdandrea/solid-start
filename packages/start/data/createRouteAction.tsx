@@ -1,11 +1,11 @@
 import { useNavigate, useSearchParams, type Navigator } from "@solidjs/router";
 import { $TRACK, batch, createSignal, useContext } from "solid-js";
-import { FormError, FormImpl, FormProps } from "./Form";
+import { FormError, FormImpl, type FormProps } from "./Form";
 
 import type { ParentComponent } from "solid-js";
 import { isRedirectResponse } from "../server/responses";
 import { ServerContext, useRequest } from "../server/ServerContext";
-import { ServerFunctionEvent } from "../server/types";
+import type { ServerFunctionEvent } from "../server/types";
 import { refetchRouteData } from "./createRouteData";
 
 interface ActionEvent extends ServerFunctionEvent {}
